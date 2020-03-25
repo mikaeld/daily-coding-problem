@@ -1,6 +1,6 @@
 import Foundation
 
-/// Multiply each of the array position by
+/// Multiply each of the array position by every other indexes and return the resulting array of multiplications
 /// - Parameter array: The array to multiply on
 func multiply(array: [Int]) -> [Int] {
     var result: [Int] = []
