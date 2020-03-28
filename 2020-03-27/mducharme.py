@@ -9,7 +9,7 @@ def lowest_positive_integer(array: List[int]) -> int:
     positive_only = {i for i in array if i >= 0}
 
     if not positive_only:
-        return 0
+        return 1
 
     max_val = max(positive_only)
     min_val = min(positive_only)
@@ -33,5 +33,5 @@ if __name__ == '__main__':
     assert lowest_positive_integer(in_1) == 2
     assert lowest_positive_integer(in_2) == 3
     assert lowest_positive_integer(in_3) == 2
-    assert lowest_positive_integer(in_4) == 0
+    assert lowest_positive_integer(in_4) == 1
     assert lowest_positive_integer(in_5) == 1
