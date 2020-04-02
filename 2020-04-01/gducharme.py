@@ -43,6 +43,6 @@ if __name__ == '__main__':
     assert sum_adjacent([5, 1, 1, 5]) == 10
     assert sum_adjacent([5, 2, 7, 7, 20, 10, 1, 4, 9]) == 42
     assert sum_adjacent([-5, 0, -2, 22, 24, -20, 7, 2, 0]) == 31
-    assert sum_adjacent([1, 2, 10, 20, 11]) == 21   # should give 22
+    assert sum_adjacent([1, 2, 10, 20, 11]) == 22
 
 
