@@ -40,7 +40,6 @@ class HighestSumFinder {
             return
         }
 
-        var possibleSolution: [Int] = possibleSolution
         findSolutions(from: list.suffix(list.count - 2), possibleSolution: possibleSolution.add(list[0]))
         findSolutions(from: list.suffix(list.count - 1), possibleSolution: possibleSolution)
     }
