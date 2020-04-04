@@ -9,10 +9,15 @@ steps matters.
 
 For example, if N is 4, then there are 5 unique ways:
 •	1, 1, 1, 1
+
 •	2, 1, 1
+
 •	1, 2, 1
+
 •	1, 1, 2
+
 •	2, 2
+
 
 What if, instead of being able to climb 1 or 2 steps at a time, you  
 could climb any number from a set of positive integers X? For example,  
