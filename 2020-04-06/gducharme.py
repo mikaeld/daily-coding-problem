@@ -11,5 +11,5 @@ def estimate_pi(n):
 
 
 if __name__ == '__main__':
-    pi = estimate_pi(1000000)
-    assert pi < 3.15 and pi > 3.13
+    pi = estimate_pi(10000000)
+    assert pi < 3.142 and pi >= 3.141
